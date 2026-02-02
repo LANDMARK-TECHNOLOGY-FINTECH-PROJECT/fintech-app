@@ -17,7 +17,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: grafana.fintech-groupb.com
+  - host: grafana.chris-systems.com
     http:
       paths:
       - path: /
