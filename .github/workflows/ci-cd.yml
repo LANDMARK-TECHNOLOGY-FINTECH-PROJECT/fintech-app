@@ -25,7 +25,7 @@ on:
 env:
   AWS_REGION: us-east-2
   # Fallback if account-id secrets are absent (still overridden by STS below)
-  AWS_ACCOUNT_ID: 327019199684
+  AWS_ACCOUNT_ID: 957877468227
   ECR_REPO: fintech-app
 
 jobs:
@@ -219,7 +219,7 @@ jobs:
 
       - name: Configure kubectl via AWS CLI
         run: |
-          CLUSTER_NAME=${{ steps.resolve.outputs.env-name }}-fintech-groupb
+          CLUSTER_NAME=${{ steps.resolve.outputs.env-name }}-class40-prod-chris
           aws eks update-kubeconfig --region $AWS_REGION --name "$CLUSTER_NAME"
 
       - name: Verify EKS Access
