@@ -93,9 +93,9 @@ Pie charts & vendor analytics with Chart.js
 RESTful APIs for mobile client integration
 
 👨‍💻 Author
-Name: Ndifor Fusi
+Name: Ikechukwu Ijeoma
 Role: DevOps Engineer Instructor
-GitHub: @ndiforfusi
+GitHub: @ijechris
 
 📄 License
 This project is open-source and licensed under the MIT License.
